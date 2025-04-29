@@ -1,0 +1,182 @@
+body{
+   text-align: center;
+   font-family: 'Abril Fatface', cursive;
+   
+}
+
+.search-container {
+   
+    top: 10px;        
+    left: 50%;       
+    transform: translateX(-50%); 
+    display: inline;
+    align-items: center;
+    border: 2px solid #ddd;  
+    border-radius: 30px;      
+    padding: 5px 15px;      
+    background-color: #fff;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+    width:min-content;
+  }
+  .search-box {
+    border: none;  
+    outline: none; 
+    padding: 0;
+    font-size: 20px;
+    width:fit-content;   
+    border-radius: 20px;   
+  }
+  
+  
+  .search-btn {
+    background-color:  rgb(179, 197, 128);
+    color: white;             
+    border: none;
+    padding: 0;
+    margin-left: 0;
+    cursor: pointer;
+    border-radius: 20px;     
+    font-size: 16px;
+  }
+  
+  .search-btn:hover {
+    background-color:  rgb(179, 197, 128);
+  }  
+.content{
+    background-color: black;
+    position: static;
+    top: 0;
+    height: 60px;
+    text-align: center;
+    width: 300px;
+}
+h1{
+    color: rgb(179, 197, 128);
+    font-family: 'Righteous', sans-serif;
+    position: fixed;  
+}
+div{
+    display: inline-block;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+}
+.menu-icon div {
+    background-color: black;
+    height: 4px;
+    margin: 6px 0;
+}
+.menu {
+    display: none;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 10px;
+}
+.container{
+    background-color: black;
+    left: 10px;
+    width: 100px;
+    height: 1000px;
+    position: fixed;
+    display: inline-flex;
+ 
+}
+.topcontainer{
+    background-color: black;
+    width: 400;
+    height: 200;
+    top: 10px;
+}
+.large{
+    background-color: rgb(179, 197, 128);
+    text-align: center;
+    width: 300px;
+    height: 50px;
+}
+.top{
+    background-color:  rgb(179, 197, 128);
+    text-align: center;
+    width: 300px;
+    height: 50px;
+}
+.middle{
+    background-color:  rgb(179, 197, 128);
+    text-align: center;
+    width: 300px;
+    height: 50px;
+}
+.bottom{
+    background-color:  rgb(179, 197, 128);
+    text-align: center;
+    width: 300px;
+    height: 50px;
+}
+.p{
+    font: optional;
+    color:  rgb(179, 197, 128);
+    font-size: 80px;
+}
+.button-link{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    background-color:  rgb(179, 197, 128);
+    color: black;
+    box-shadow: 0 4px 8px black;
+    transition: background-color 0.3 ease;
+}
+.chanel-row{
+    width: 100%;
+    text-align: center;
+    font-family: 'Righteous', sans-serif;
+    color: white;
+}
+.content-me{
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+}
+.content-to{
+    background-color:  rgb(179, 197, 128);
+    width: 300px;
+    height: 600px;
+    margin: 10px ;
+   align-items: center;
+}
+.p.content-to{
+    padding: 30px;
+    align-items: center;
+}
+.content-or{
+    background-color:  rgb(179, 197, 128);
+    display: block;
+}
+.content-our{
+    background-color:  rgb(179, 197, 128);
+    width: 500px;
+}
+.hr{
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+.menu {
+    display: block; 
+  }
+  @media screen and (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  
+.mobile-menu {
+      display: block; 
+    }
+  }
+ 
